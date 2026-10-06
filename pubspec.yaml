@@ -1,6 +1,8 @@
 name: aud_midi
-description: "A new Dart FFI package project."
-version: 0.0.1
+description: "aud_midi offers performant MIDI for iOS, MacOSX and Android apps"
+version: 0.0.0
+homepage: https://github.com/audanika/aud_midi
+repository: https://github.com/audanika/aud_midi
 
 environment:
   sdk: ^3.13.4
