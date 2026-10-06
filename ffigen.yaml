@@ -1,0 +1,16 @@
+# Run with `dart run ffigen --config ffigen.yaml`.
+name: AudMidiBindings
+description: |
+  Bindings for `src/aud_midi.h`.
+
+  Regenerate bindings with `dart run ffigen --config ffigen.yaml`.
+output: 'lib/aud_midi_bindings_generated.dart'
+headers:
+  entry-points:
+    - 'src/aud_midi.h'
+  include-directives:
+    - 'src/aud_midi.h'
+ffi-native:
+comments:
+  style: any
+  length: full
