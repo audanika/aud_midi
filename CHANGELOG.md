@@ -1,6 +1,10 @@
 # Changelog
 
-## Unreleased
+## 0.0.1 - 2026-10-06
+
+### Added
+
+- Add dna_audanika
 
 ### Changed
 
