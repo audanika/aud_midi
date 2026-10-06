@@ -117,10 +117,10 @@ packages:
     dependency: "direct dev"
     description:
       name: dna_audanika
-      sha256: b864df1905c6d3311b082e387a327ed721eb238e924ccfb2a81f43b836a36fa5
+      sha256: "47afff6bd8d72029a43339bbd310551832664d4f07b7a92b7a56ba07b527f879"
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.1"
+    version: "0.0.2"
   dna_clean_code:
     dependency: transitive
     description:
@@ -181,10 +181,10 @@ packages:
     dependency: transitive
     description:
       name: dna_vscode
-      sha256: "871f90657a216c7bb2b5f6a61bd9a3e73253fd955ba527de6820fe5be0bc8202"
+      sha256: a6a1beeba1490bcb666ed98c6a7a5cbd5295fa949e09331b400777655ee0d4f7
       url: "https://pub.dev"
     source: hosted
-    version: "0.2.3"
+    version: "0.2.4"
   ffi:
     dependency: "direct dev"
     description:
