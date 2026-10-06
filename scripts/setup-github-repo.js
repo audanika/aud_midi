@@ -1,6 +1,6 @@
 /*
  * @license
- * Copyright (c) <YOUR_COPYRIGHT_HOLDER>
+ * Copyright (c) Audanika. All Rights Reserved.
  *
  * Use of this source code is governed by terms that can be
  * found in the LICENSE file in the root of this package.
@@ -36,7 +36,7 @@ const rulesetName = 'Default';
 
 // The status check that must pass before merging. It is provided by the
 // GitHub Actions app, i.e. not by "Any source".
-const requiredStatusCheck = 'dnaGitQuickCheckPipelineName';
+const requiredStatusCheck = 'Quick Check';
 const gitHubActionsAppId = 15368;
 
 // ...........................................................................

@@ -12,6 +12,10 @@
     "yzhang.markdown-all-in-one",
     "ryanluker.vscode-coverage-gutters",
     "jock.svg",
-    "luanpotter.dart-import"
+    "luanpotter.dart-import",
+    "stephanvs.dot",
+    "tintinweb.graphviz-interactive-preview",
+    "geeklearningio.graphviz-markdown-preview",
+    "bmlsolutions.dotuml"
   ]
 }
