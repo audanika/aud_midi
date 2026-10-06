@@ -18,6 +18,14 @@
       "hash": "0x29fdd0bc52e50e39"
     },
     {
+      "name": "dna-github",
+      "package": "dna_github",
+      "ecosystem": "pub",
+      "resolvedVersion": "0.0.2",
+      "via": null,
+      "hash": "0xae24c13573219f91"
+    },
+    {
       "name": "self",
       "package": null,
       "ecosystem": null,
@@ -35,7 +43,11 @@
   "instances": [
     {
       "path": ".claude/skills/vscode/SKILL.md",
-      "hash": "0xa331cf3abdbd1c7b"
+      "hash": "0xc87050b10a55f3cd"
+    },
+    {
+      "path": ".github/workflows/quick_check.yaml",
+      "hash": "0xffa3b2b1513d52cb"
     },
     {
       "path": ".prettierignore",
@@ -51,11 +63,19 @@
     },
     {
       "path": ".vscode/settings.json",
-      "hash": "0x56f3eedd72c6218f"
+      "hash": "0x0d1e344433ffce37"
     },
     {
       "path": "doc/guides/vscode-guide.md",
-      "hash": "0x6776b27c7cbedb98"
+      "hash": "0x9bc41316c7f9d074"
+    },
+    {
+      "path": "guides/setup-github-guide.md",
+      "hash": "0x8681f11bbfaa0c00"
+    },
+    {
+      "path": "scripts/setup-github-repo.js",
+      "hash": "0x54a784496124d3cb"
     }
   ]
 }

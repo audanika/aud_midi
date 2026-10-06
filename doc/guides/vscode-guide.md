@@ -1,6 +1,6 @@
 <!--
 @license
-Copyright (c) ggsuite
+Copyright (c) <YOUR_COPYRIGHT_HOLDER>
 
 Use of this source code is governed by terms that can be
 found in the LICENSE file in the root of this package.
@@ -18,7 +18,7 @@ with.
 - 80 character rulers, no trailing whitespace, a final newline
 - Coverage gutters and the testing panel
 - A license header template for every language this family writes,
-  using `ggsuite` and `ggsuite`
+  using `<YOUR_COMPANY>` and `<YOUR_COPYRIGHT_HOLDER>`
 - `dna/_dna.json` is associated with `jsonc`, so its comments do not show
   as errors
 
