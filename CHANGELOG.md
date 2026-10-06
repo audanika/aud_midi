@@ -1,3 +1,11 @@
-## 0.0.1
+# Changelog
 
-* TODO: Describe initial release.
+## Unreleased
+
+### Changed
+
+- Prepare publishing
+
+## 0.0.0 - 2026-10-06
+
+- Initial Boilerplate
