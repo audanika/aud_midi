@@ -1,6 +1,6 @@
-import 'package:native_toolchain_c/native_toolchain_c.dart';
-import 'package:logging/logging.dart';
 import 'package:hooks/hooks.dart';
+import 'package:logging/logging.dart';
+import 'package:native_toolchain_c/native_toolchain_c.dart';
 
 void main(List<String> args) async {
   await build(args, (input, output) async {
@@ -15,6 +15,7 @@ void main(List<String> args) async {
       output: output,
       logger: Logger('')
         ..level = .ALL
+        // ignore: avoid_print
         ..onRecord.listen((record) => print(record.message)),
     );
   });
