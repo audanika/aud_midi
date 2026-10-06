@@ -1,6 +1,6 @@
 name: aud_midi
 description: "aud_midi offers performant MIDI for iOS, MacOSX and Android apps"
-version: 0.0.0
+version: 0.0.1
 homepage: https://github.com/audanika/aud_midi
 repository: https://github.com/audanika/aud_midi
 
