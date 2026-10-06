@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### Added
+
+- Add dna_audanika
+
 ### Changed
 
 - Prepare publishing
