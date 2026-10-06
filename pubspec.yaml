@@ -12,6 +12,7 @@ dependencies:
   native_toolchain_c: ^0.19.0
 
 dev_dependencies:
+  dna_github: ^0.0.2
   dna_vscode: ^0.2.2
   ffi: ^2.1.4
   ffigen: ^20.1.1
