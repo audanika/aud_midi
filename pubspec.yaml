@@ -1,6 +1,6 @@
 name: aud_midi
 description: "MIDI for Dart and Flutter apps on iOS, macOS, Android, Windows, Linux and the web: USB, Bluetooth LE, virtual and network MIDI in a MIDI isolate"
-version: 0.0.1
+version: 0.1.0
 homepage: https://github.com/audmidi/aud_midi
 repository: https://github.com/audmidi/aud_midi
 topics:
