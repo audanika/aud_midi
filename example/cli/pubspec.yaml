@@ -1,0 +1,18 @@
+name: aud_midi_cli
+description: "Command line examples of aud_midi: list, monitor, send, virtual ports, network sessions and the midi_bench benchmark"
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  aud_midi:
+    path: ../..
+
+dev_dependencies:
+  lints: ^6.1.0
+
+executables:
+  aud_midi_cli:
+  midi_bench:
