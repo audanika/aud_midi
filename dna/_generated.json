@@ -13,9 +13,9 @@
       "name": "dna-vscode",
       "package": "dna_vscode",
       "ecosystem": "pub",
-      "resolvedVersion": "0.2.3",
+      "resolvedVersion": "0.2.4",
       "via": null,
-      "hash": "0x29fdd0bc52e50e39"
+      "hash": "0x9a76a39efcd34360"
     },
     {
       "name": "dna-github",
@@ -77,9 +77,9 @@
       "name": "dna-audanika",
       "package": "dna_audanika",
       "ecosystem": "pub",
-      "resolvedVersion": "0.0.1",
+      "resolvedVersion": "0.0.2",
       "via": null,
-      "hash": "0xaa49e2600710e6ff"
+      "hash": "0xe1140f9ec75aba0a"
     },
     {
       "name": "self",
@@ -179,7 +179,7 @@
     },
     {
       "path": "LICENSE",
-      "hash": "0x3b130b32045b6e81"
+      "hash": "0xeadf5bdb5784b340"
     },
     {
       "path": "doc/guides/code-guide-dart.md",

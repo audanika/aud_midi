@@ -1,22 +1,28 @@
 name: aud_midi
-description: "aud_midi offers performant MIDI for iOS, MacOSX and Android apps"
-version: 0.0.1
-homepage: https://github.com/audanika/aud_midi
-repository: https://github.com/audanika/aud_midi
+description: "MIDI for Dart and Flutter apps on iOS, macOS, Android, Windows, Linux and the web: USB, Bluetooth LE, virtual and network MIDI in a MIDI isolate"
+version: 0.1.0
+homepage: https://github.com/audmidi/aud_midi
+repository: https://github.com/audmidi/aud_midi
+topics:
+  - midi
+  - audio
+  - music
 
 environment:
-  sdk: ^3.13.4
+  sdk: ^3.12.2
 
 dependencies:
-  code_assets: ^2.1.0
-  hooks: ^2.2.0
-  logging: ^1.3.0
-  native_toolchain_c: ^0.19.5
+  aud_midi_android: ^0.1.0
+  aud_midi_apple: ^0.1.0
+  aud_midi_core: ^0.1.0
+  aud_midi_linux: ^0.1.0
+  aud_midi_network: ^0.1.0
+  aud_midi_standard: ^0.1.0
+  aud_midi_web: ^0.1.0
+  aud_midi_windows: ^0.1.0
 
 dev_dependencies:
-  dna_audanika: ^0.0.1
-  ffi: ^2.2.0
-  ffigen: ^23.0.0
-  flutter_lints: ^6.0.0
+  dna_audanika: ^0.0.2
   helix: ^1.11.0
+  lints: ^6.1.0
   test: ^1.32.0

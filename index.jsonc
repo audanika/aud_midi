@@ -1,0 +1,35 @@
+// @license
+// Copyright (c) Audanika
+//
+// Use of this source code is governed by terms that can be
+// found in the LICENSE file in the root of this package.
+
+{
+  // The package name, as declared in pubspec.yaml / package.json.
+  "name": "aud_midi",
+
+  // 1-2 sentence summary about this repo.
+  "summary": "App-facing MIDI API for iOS, macOS, Android, Windows, Linux and web: Midi.open(), MIDI isolate, proxies, backend selection, examples.",
+
+  // 1-3 bullet points: the problem space.
+  "domain": [
+    "USB, BLE, virtual and network MIDI, MIDI 1.0 and 2.0, in its own isolate",
+    "Backend composition per platform: OS backend + network session + BLE"
+  ],
+
+  // The repos this one depends on and the repos depending on it.
+  // Keep the reason or the API behind each entry, not just the name.
+  "interfaces": {
+    "uses": {
+      "aud_midi_standard": "messages, models, codecs (re-exported)",
+      "aud_midi_core": "MidiEngine, MidiCompositeBackend, contracts (re-exported)",
+      "aud_midi_network": "MidiNetworkSessionBackend on macOS, Android, Windows, Linux",
+      "aud_midi_apple": "AppleMidiBackend, MidiBonjourAdvertiser",
+      "aud_midi_android": "AndroidMidiBackend, MidiAndroidServiceAdvertiser",
+      "aud_midi_windows": "WindowsMidiBackend, WindowsMidiServiceAdvertiser",
+      "aud_midi_linux": "LinuxMidiBackend, MidiAvahiServiceAdvertiser",
+      "aud_midi_web": "WebMidiBackend"
+    },
+    "usedBy": {}
+  }
+}
