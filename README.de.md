@@ -47,7 +47,7 @@ Fragmentiertes SysEx mit Clocks dazwischen wird korrekt zusammengesetzt,
 dependencies:
   aud_midi:
     git:
-      url: git@github.com:audanika/aud_midi.git
+      url: git@github.com:audmidi/aud_midi.git
 ```
 
 Das Package hängt von allen Backends ab; `aud_midi_android` braucht das
@@ -63,7 +63,7 @@ Einrichtung je Plattform:
   `com.apple.security.network.client`,
   `com.apple.security.network.server`
 - Android: die Berechtigungen und Services aus dem
-  [README von aud_midi_android](https://github.com/audanika/aud_midi_android)
+  [README von aud_midi_android](https://github.com/audmidi/aud_midi_android)
 - Windows: MSIX-Capabilities `bluetooth`, `internetClient`,
   `privateNetworkClientServer`
 - Linux: `libasound2`, Zugriff auf `/dev/snd/seq`; BlueZ und Avahi über
@@ -74,12 +74,12 @@ Die Beispiel-App in `example/` zeigt diese Einstellungen.
 
 ## Dokumentation
 
-- [Architektur](https://github.com/audanika/aud_midi_pm/blob/main/doc/2026-Q4/architecture/architecture.md)
-- [Plan](https://github.com/audanika/aud_midi_pm/blob/main/doc/2026-Q4/tickets/2026-10-06-aud_midi_01-initial-midi-implementation.md)
-  und [Entscheidungen](https://github.com/audanika/aud_midi_pm/blob/main/doc/2026-Q4/concepts/decisions/000-index.md)
-- Packages: [aud_midi_standard](https://github.com/audanika/aud_midi_standard)
-  (Nachrichten, Codecs), [aud_midi_core](https://github.com/audanika/aud_midi_core)
-  (Engine), die Backends und [aud_midi_network](https://github.com/audanika/aud_midi_network)
+- [Architektur](https://github.com/audmidi/aud_midi_pm/blob/main/doc/2026-Q4/architecture/architecture.md)
+- [Plan](https://github.com/audmidi/aud_midi_pm/blob/main/doc/2026-Q4/tickets/2026-10-06-aud_midi_01-initial-midi-implementation.md)
+  und [Entscheidungen](https://github.com/audmidi/aud_midi_pm/blob/main/doc/2026-Q4/concepts/decisions/000-index.md)
+- Packages: [aud_midi_standard](https://github.com/audmidi/aud_midi_standard)
+  (Nachrichten, Codecs), [aud_midi_core](https://github.com/audmidi/aud_midi_core)
+  (Engine), die Backends und [aud_midi_network](https://github.com/audmidi/aud_midi_network)
 - Beispiele: `example/cli` (`aud_midi_cli`, `midi_bench`, `hello_midi`),
   `example/` (Flutter-App)
 

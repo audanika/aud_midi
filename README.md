@@ -46,7 +46,7 @@ fully accounted for by diagnostics, hotplug is reported after about
 dependencies:
   aud_midi:
     git:
-      url: git@github.com:audanika/aud_midi.git
+      url: git@github.com:audmidi/aud_midi.git
 ```
 
 The package depends on all backends; `aud_midi_android` needs the Flutter
@@ -62,7 +62,7 @@ Platform setup:
   `com.apple.security.network.client`,
   `com.apple.security.network.server`
 - Android: the permissions and services from the
-  [aud_midi_android README](https://github.com/audanika/aud_midi_android)
+  [aud_midi_android README](https://github.com/audmidi/aud_midi_android)
 - Windows: MSIX capabilities `bluetooth`, `internetClient`,
   `privateNetworkClientServer`
 - Linux: `libasound2`, access to `/dev/snd/seq`; BlueZ and Avahi over
@@ -73,12 +73,12 @@ The example app in `example/` shows these settings.
 
 ## Documentation
 
-- [Architecture](https://github.com/audanika/aud_midi_pm/blob/main/doc/2026-Q4/architecture/architecture.md)
-- [Plan](https://github.com/audanika/aud_midi_pm/blob/main/doc/2026-Q4/tickets/2026-10-06-aud_midi_01-initial-midi-implementation.md)
-  and [decisions](https://github.com/audanika/aud_midi_pm/blob/main/doc/2026-Q4/concepts/decisions/000-index.md)
-- Packages: [aud_midi_standard](https://github.com/audanika/aud_midi_standard)
-  (messages, codecs), [aud_midi_core](https://github.com/audanika/aud_midi_core)
-  (engine), the backends and [aud_midi_network](https://github.com/audanika/aud_midi_network)
+- [Architecture](https://github.com/audmidi/aud_midi_pm/blob/main/doc/2026-Q4/architecture/architecture.md)
+- [Plan](https://github.com/audmidi/aud_midi_pm/blob/main/doc/2026-Q4/tickets/2026-10-06-aud_midi_01-initial-midi-implementation.md)
+  and [decisions](https://github.com/audmidi/aud_midi_pm/blob/main/doc/2026-Q4/concepts/decisions/000-index.md)
+- Packages: [aud_midi_standard](https://github.com/audmidi/aud_midi_standard)
+  (messages, codecs), [aud_midi_core](https://github.com/audmidi/aud_midi_core)
+  (engine), the backends and [aud_midi_network](https://github.com/audmidi/aud_midi_network)
 - Examples: `example/cli` (`aud_midi_cli`, `midi_bench`, `hello_midi`),
   `example/` (Flutter app)
 

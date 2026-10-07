@@ -1,9 +1,8 @@
 name: aud_midi
 description: "MIDI for Dart and Flutter apps on iOS, macOS, Android, Windows, Linux and the web: USB, Bluetooth LE, virtual and network MIDI in a MIDI isolate"
 version: 0.0.1
-homepage: https://github.com/audanika/aud_midi
-repository: https://github.com/audanika/aud_midi
-publish_to: none
+homepage: https://github.com/audmidi/aud_midi
+repository: https://github.com/audmidi/aud_midi
 topics:
   - midi
   - audio
@@ -13,46 +12,14 @@ environment:
   sdk: ^3.12.2
 
 dependencies:
-  aud_midi_android:
-    git:
-      url: git@github.com:audanika/aud_midi_android.git
-      tag_pattern: "{{version}}"
-    version: ^0.0.0
-  aud_midi_apple:
-    git:
-      url: git@github.com:audanika/aud_midi_apple.git
-      tag_pattern: "{{version}}"
-    version: ^0.0.0
-  aud_midi_core:
-    git:
-      url: git@github.com:audanika/aud_midi_core.git
-      tag_pattern: "{{version}}"
-    version: ^0.0.0
-  aud_midi_linux:
-    git:
-      url: git@github.com:audanika/aud_midi_linux.git
-      tag_pattern: "{{version}}"
-    version: ^0.0.0
-  aud_midi_network:
-    git:
-      url: git@github.com:audanika/aud_midi_network.git
-      tag_pattern: "{{version}}"
-    version: ^0.0.0
-  aud_midi_standard:
-    git:
-      url: git@github.com:audanika/aud_midi_standard.git
-      tag_pattern: "{{version}}"
-    version: ^0.0.0
-  aud_midi_web:
-    git:
-      url: git@github.com:audanika/aud_midi_web.git
-      tag_pattern: "{{version}}"
-    version: ^0.0.0
-  aud_midi_windows:
-    git:
-      url: git@github.com:audanika/aud_midi_windows.git
-      tag_pattern: "{{version}}"
-    version: ^0.0.0
+  aud_midi_android: ^0.0.0
+  aud_midi_apple: ^0.0.0
+  aud_midi_core: ^0.0.0
+  aud_midi_linux: ^0.0.0
+  aud_midi_network: ^0.0.0
+  aud_midi_standard: ^0.0.0
+  aud_midi_web: ^0.0.0
+  aud_midi_windows: ^0.0.0
 
 dev_dependencies:
   dna_audanika: ^0.0.2
